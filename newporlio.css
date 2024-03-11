@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  button{
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    background-color:hsl(335, 98%, 50%) ;
+    margin-right: 10px;
+    border-radius: 30px;
+    border-color: aliceblue;
+  }
+  .side{
+    display: flex;
+    flex-direction: row;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+  }
+  .main{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    font-size: 3vmin;
+  }
+  .one{
+    color: aliceblue;
+    width: 70%;
+    height: 20vh;
+    justify-items: center;
+    margin-left: 12%;
+    margin-top: 10px;
+  }
+  .two{
+    
+  
+      color: aliceblue;
+      width: 70%;
+      height: 20vh;
+  
+  
+      justify-items: center;
+      margin-left: 12%;
+      margin-top: 10px;
+    
+  }
+  .three{
+    color: aliceblue;
+    width: 70%;
+    height: 20vh;
+    justify-items: center;
+    margin-left: 12%;
+    margin-top: 10px;
+  }
+  .four{
+    color: aliceblue;
+    width: 70%;
+    height: 20vh;
+    justify-items: center;
+    margin-left: 12%;
+    margin-top: 10px;
+  }
+  .five{
+    color: aliceblue;
+    width: 70%;
+    height: 20vh;
+    justify-items: center;
+    margin-left: 12%;
+    margin-top: 10px;
+  }
+  .form{
+    position: absolute;
+    width: 60%;
+    height: 80vh;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  input{
+    width: 50%;
+    height: 60px;
+    margin-top: 40px;
+    border: none;
+    border-bottom: 3px hsl(335, 98%, 50%) solid;
+    font-size: 4vmin;
+  
+  }
+  .log{
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 40% ;
+    height: 50px;
+    margin-top: 50px;
+  }
+  img{
+    width:80px;
+    height: 60px;
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
